@@ -26,3 +26,6 @@ plugin/*
 **/deno.lock/
 **/types/
 **/config/
+**/screen.exe.WebView2/
+**/deno.lock/
+**/run.flag/
