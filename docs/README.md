@@ -55,9 +55,8 @@ deno task pack
 
 * 开机全屏启动
 
-```
 
-# PowerShell 脚本，添加自启动快捷方式
+```
 
 $exePath = "C:\Path\To\screen.exe"
 $shortcutName = "screen.lnk"
