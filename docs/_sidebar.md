@@ -1,7 +1,7 @@
 - 首页
   - [介绍](README.md)
 - 视觉交互
-  - [deno](guide/install.md)
-  - [glsl](guide/README.md)
+  - [deno](guide/deno.md)
+  - [glsl](guide/glsl.md)
 - 数据交互
   - [rust](reference/api.md)
