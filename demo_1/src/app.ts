@@ -1,5 +1,6 @@
 import { Renderer, Camera, RenderTarget, Geometry, Program, Mesh, Color, Vec2, Box, NormalProgram, Post } from 'ogl';
 import { FBOOptions } from '../types/index.ts.js';
+// declare type FBOOptions
 import { advectionManualFilteringShader, advectionShader, baseVertex, clearShader, curlShader, divergenceShader, fragment, gradientSubtractShader, pressureShader, splatShader, vorticityShader } from './shader.ts';
 
 const renderer = new Renderer({ dpr: 2 });
