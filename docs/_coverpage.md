@@ -1,7 +1,6 @@
 <!-- _coverpage.md -->
 
 <!-- ![logo](https://docsify.js.org/_media/icon.svg) -->
-
 ### Digital Screen
 
 > 基于rust的数字大屏项目，使用rust编写核心库，使用deno开发前端页面。

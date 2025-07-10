@@ -353,7 +353,6 @@ const createDoubleFBO = ( gl: WebGLRenderingContext, { width, height, wrapS,  wr
 
     // Function to draw number of interactions onto input render target
     function splat({ x, y, dx, dy }: { x: number; y: number; dx: number; dy: number }) {
-
         splatProgram.program.uniforms.uTarget.value = velocity.read.texture;
         splatProgram.program.uniforms.aspectRatio.value = gl.renderer.width / gl.renderer.height;
         splatProgram.program.uniforms.point.value.set(x, y);

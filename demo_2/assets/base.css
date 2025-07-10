@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", sans-serif;
+  color: #464646;
+  background-color: black;
+  overflow: hidden;
+}
+#chat {
+  position: fixed;   /* 固定定位 */
+  bottom: 20px;      /* 距离底部20像素 */
+  right: 20px;       /* 距离右侧20像素 */
+  width: 400px;      /* 宽度可以调整 */
+  max-height: 400px; /* 最大高度，防止太高 */
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  padding: 1rem;
+  z-index: 9999;     /* 保证浮在最前 */
+  overflow-y: auto;  /* 内容超出时可滚动 */
+}
+#messages { 
+  height: 300px; 
+  overflow-y: auto; 
+}
+#messages p{ 
+  font-size: 14px;
+  line-height: 20px;
+  color: #464646;
+}
+#input-area { margin-top: 1rem; display: flex;}
+#prompt { flex: 1;  border:0px;border-bottom: 1px solid rgba(0,0,0,0.15)}
+
+input:focus {
+  border-bottom: 1px solid rgba(0,0,0,0.4)
+}
+button { padding: 0.5rem 1rem;border: 1px solid rgba(0,0,0,0.15);border-radius: 5px;margin-left: 10px; }
+.user { color: #464646; }
+.bot { color: rgb(35, 54, 35); }
